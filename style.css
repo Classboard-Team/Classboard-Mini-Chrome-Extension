@@ -1,0 +1,42 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+body {
+    margin: 0;
+    width: 400px;
+    height: 600px;
+    background-color: #6eb8bb;
+    text-align: center;
+}
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: cadetblue;
+}
+a {
+    font-size: 15px;
+    padding: 5px;
+    margin: 3px;
+    width: 350px;
+    background-color: cadetblue;
+    transition: 75ms;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    display: inline-block;
+}
+a:hover {
+    background-color: #7bcdd0;
+    cursor: pointer;
+    scale: 105%;
+    border-radius: 10px;
+}
+a:active {
+    background-color: #91f3f6;
+    cursor: pointer;
+    scale: 110%;
+    border-radius: 15px;
+}
